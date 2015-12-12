@@ -1,1 +1,1 @@
-"use strict";$(function(){console.log("hello, world")});
+var sites=[{url:"http://www.adamtmiddleton.com/"},{url:"http://design.shweiki.com/"},{url:"http://inhishandsfitness.com/"},{url:"http://lifestylesforseniors.net/"},{url:"https://www.roverpass.com/"},{url:"http://www.sentinelsoffreedomgulfcoast.com/"},{url:"http://toppefirms.com/"}];$(function(){console.log("hello, world");var t=[];$.each(sites,function(s,e){t.push('<p><a href="'+e.url+'" target="_blank">'+e.url+"</a></p>")}),$("<div/>",{"class":"my-new-list",html:t.join("")}).appendTo("#sites")});
